@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Baloo Bhai 2', cursive;
+  font-size: 2.5rem;
+  margin:  5px;
+  color: #FEF2BF;
+}
+.howtp{
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  font-size: 34px;
+  color: azure;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+.restart{
+  font-family: 'Baloo Bhai 2', cursive;
+  margin: 15px;
+  display: inline-block;
+  border: 10px solid black;
+  border-radius: 30%;
+  text-align: center;
+  padding: 25px;
+  font-size: 2.5rem;
+  background-color: rgb(255, 255, 205);
+  cursor: pointer;
+}
+.btn {
+  margin: 15px;
+  display: inline-block;
+  height: 180px;
+  width: 180px;
+  border: 10px solid black;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
